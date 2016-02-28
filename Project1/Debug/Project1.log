@@ -1,0 +1,201 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of main.cc will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are app\clingo\src\main.cc, app\gringo\main.cc, libgringo\tests\main.cc.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of instantiation.cc will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are libgringo\src\ground\instantiation.cc, libgringo\tests\ground\instantiation.cc.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of literals.cc will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are libgringo\src\ground\literals.cc, libgringo\src\input\literals.cc, libgringo\src\output\literals.cc.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of program.cc will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are libgringo\src\ground\program.cc, libgringo\src\input\program.cc, libgringo\tests\ground\program.cc, libgringo\tests\input\program.cc.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of statements.cc will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are libgringo\src\ground\statements.cc, libgringo\src\input\statements.cc, libgringo\src\output\statements.cc.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of aggregate.cc will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are libgringo\src\input\aggregate.cc, libgringo\tests\input\aggregate.cc.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of literal.cc will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are libgringo\src\input\literal.cc, libgringo\tests\ground\literal.cc, libgringo\tests\input\literal.cc.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of programbuilder.cc will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are libgringo\src\input\programbuilder.cc, libgringo\tests\input\programbuilder.cc.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of lua.cc will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are libgringo\src\lua.cc, libgringo\tests\lua.cc.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of python.cc will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are libgringo\src\python.cc, libgringo\tests\python.cc.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of term.cc will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are libgringo\src\term.cc, libgringo\tests\term.cc.
+  value_store.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libprogram_opts\src\value_store.cpp(22): fatal error C1083: Cannot open include file: 'program_opts/value_store.h': No such file or directory
+  string_convert.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libprogram_opts\src\string_convert.cpp(18): fatal error C1083: Cannot open include file: 'program_opts/string_convert.h': No such file or directory
+  program_options.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libprogram_opts\src\program_options.cpp(27): fatal error C1083: Cannot open include file: 'program_opts/program_options.h': No such file or directory
+  application.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libprogram_opts\src\application.cpp(22): fatal error C1083: Cannot open include file: 'program_opts/application.h': No such file or directory
+  alarm.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libprogram_opts\src\alarm.cpp(18): fatal error C1083: Cannot open include file: 'program_opts/detail/alarm.h': No such file or directory
+  value.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\tests\value.cc(21): fatal error C1083: Cannot open include file: 'gringo/value.hh': No such file or directory
+  utility.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\tests\utility.cc(21): fatal error C1083: Cannot open include file: 'gringo/utility.hh': No such file or directory
+  unique_list.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\tests\unique_list.cc(21): fatal error C1083: Cannot open include file: 'gringo/unique_list.hh': No such file or directory
+  term.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\tests\term.cc(21): fatal error C1083: Cannot open include file: 'gringo/bug.hh': No such file or directory
+  safetycheck.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\tests\safetycheck.cc(21): fatal error C1083: Cannot open include file: 'gringo/safetycheck.hh': No such file or directory
+  python.cc
+  warnings.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\tests\output\warnings.cc(21): fatal error C1083: Cannot open include file: 'tests/tests.hh': No such file or directory
+  lparse.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\tests\output\lparse.cc(21): fatal error C1083: Cannot open include file: 'tests/tests.hh': No such file or directory
+  incremental.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\tests\output\incremental.cc(21): fatal error C1083: Cannot open include file: 'tests/tests.hh': No such file or directory
+  aspcomp13.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\tests\output\aspcomp13.cc(21): fatal error C1083: Cannot open include file: 'gringo/ground/dependency.hh': No such file or directory
+  main.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\tests\main.cc(21): fatal error C1083: Cannot open include file: 'cppunit/ui/text/TestRunner.h': No such file or directory
+  lua.cc
+  intervals.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\tests\intervals.cc(21): fatal error C1083: Cannot open include file: 'gringo/intervals.hh': No such file or directory
+  programbuilder.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\tests\input\programbuilder.cc(21): fatal error C1083: Cannot open include file: 'gringo/input/programbuilder.hh': No such file or directory
+  program.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\tests\input\program.cc(21): fatal error C1083: Cannot open include file: 'gringo/input/nongroundparser.hh': No such file or directory
+  Generating Code...
+  Compiling...
+  nongroundlexer.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\tests\input\nongroundlexer.cc(21): fatal error C1083: Cannot open include file: 'gringo/input/nongroundparser.hh': No such file or directory
+  nongroundgrammar.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\tests\input\nongroundgrammar.cc(21): fatal error C1083: Cannot open include file: 'gringo/input/nongroundparser.hh': No such file or directory
+  literal.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\tests\input\literal.cc(21): fatal error C1083: Cannot open include file: 'tests/tests.hh': No such file or directory
+  aggregate.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\tests\input\aggregate.cc(21): fatal error C1083: Cannot open include file: 'gringo/bug.hh': No such file or directory
+  program.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\tests\ground\program.cc(21): fatal error C1083: Cannot open include file: 'gringo/ground/program.hh': No such file or directory
+  literal.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\tests\ground\literal.cc(21): fatal error C1083: Cannot open include file: 'gringo/ground/literals.hh': No such file or directory
+  instantiation.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\tests\ground\instantiation.cc(21): fatal error C1083: Cannot open include file: 'gringo/input/nongroundparser.hh': No such file or directory
+  dependency.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\tests\ground\dependency.cc(21): fatal error C1083: Cannot open include file: 'gringo/ground/dependency.hh': No such file or directory
+  graph.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\tests\graph.cc(21): fatal error C1083: Cannot open include file: 'gringo/graph.hh': No such file or directory
+  flyweight.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\tests\flyweight.cc(21): fatal error C1083: Cannot open include file: 'gringo/flyweight.hh': No such file or directory
+  terms.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\src\terms.cc(21): fatal error C1083: Cannot open include file: 'gringo/terms.hh': No such file or directory
+  term.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\src\term.cc(21): fatal error C1083: Cannot open include file: 'gringo/term.hh': No such file or directory
+  scripts.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\src\scripts.cc(21): fatal error C1083: Cannot open include file: 'gringo/scripts.hh': No such file or directory
+  python.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\src\python.cc(1734): fatal error C1083: Cannot open include file: 'gringo/python.hh': No such file or directory
+  statements.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\src\output\statements.cc(21): fatal error C1083: Cannot open include file: 'gringo/output/statements.hh': No such file or directory
+  output.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\src\output\output.cc(21): fatal error C1083: Cannot open include file: 'gringo/output/output.hh': No such file or directory
+  literals.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\src\output\literals.cc(21): fatal error C1083: Cannot open include file: 'gringo/output/statements.hh': No such file or directory
+  lua.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\src\lua.cc(884): fatal error C1083: Cannot open include file: 'gringo/lua.hh': No such file or directory
+  statements.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\src\input\statements.cc(21): fatal error C1083: Cannot open include file: 'gringo/bug.hh': No such file or directory
+  programbuilder.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\src\input\programbuilder.cc(21): fatal error C1083: Cannot open include file: 'gringo/input/programbuilder.hh': No such file or directory
+  Generating Code...
+  Compiling...
+  program.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\src\input\program.cc(21): fatal error C1083: Cannot open include file: 'gringo/input/program.hh': No such file or directory
+  nongroundparser.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\src\input\nongroundparser.cc(21): fatal error C1083: Cannot open include file: 'gringo/input/nongroundparser.hh': No such file or directory
+  literals.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\src\input\literals.cc(21): fatal error C1083: Cannot open include file: 'gringo/input/literals.hh': No such file or directory
+  literal.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\src\input\literal.cc(21): fatal error C1083: Cannot open include file: 'gringo/input/literal.hh': No such file or directory
+  aggregates.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\src\input\aggregates.cc(21): fatal error C1083: Cannot open include file: 'gringo/bug.hh': No such file or directory
+  aggregate.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\src\input\aggregate.cc(21): fatal error C1083: Cannot open include file: 'gringo/bug.hh': No such file or directory
+  statements.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\src\ground\statements.cc(21): fatal error C1083: Cannot open include file: 'gringo/ground/statements.hh': No such file or directory
+  program.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\src\ground\program.cc(21): fatal error C1083: Cannot open include file: 'gringo/ground/program.hh': No such file or directory
+  literals.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\src\ground\literals.cc(21): fatal error C1083: Cannot open include file: 'gringo/ground/literals.hh': No such file or directory
+  instantiation.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\src\ground\instantiation.cc(21): fatal error C1083: Cannot open include file: 'gringo/ground/instantiation.hh': No such file or directory
+  weight_constraint.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\weight_constraint.cpp(21): fatal error C1083: Cannot open include file: 'clasp/weight_constraint.h': No such file or directory
+  unfounded_check.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\unfounded_check.cpp(24): fatal error C1083: Cannot open include file: 'clasp/unfounded_check.h': No such file or directory
+  timer.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\timer.cpp(20): fatal error C1083: Cannot open include file: 'clasp/util/timer.h': No such file or directory
+  solve_algorithms.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\solve_algorithms.cpp(20): fatal error C1083: Cannot open include file: 'clasp/solve_algorithms.h': No such file or directory
+  solver_types.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\solver_types.cpp(20): fatal error C1083: Cannot open include file: 'clasp/solver_types.h': No such file or directory
+  solver_strategies.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\solver_strategies.cpp(20): fatal error C1083: Cannot open include file: 'clasp/solver_strategies.h': No such file or directory
+  solver.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\solver.cpp(20): fatal error C1083: Cannot open include file: 'clasp/solver.h': No such file or directory
+  shared_context.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\shared_context.cpp(20): fatal error C1083: Cannot open include file: 'clasp/shared_context.h': No such file or directory
+  satelite.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\satelite.cpp(20): fatal error C1083: Cannot open include file: 'clasp/satelite.h': No such file or directory
+  program_builder.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\program_builder.cpp(20): fatal error C1083: Cannot open include file: 'clasp/program_builder.h': No such file or directory
+  Generating Code...
+  Compiling...
+  parser.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\parser.cpp(20): fatal error C1083: Cannot open include file: 'clasp/parser.h': No such file or directory
+  parallel_solve.cpp
+  model_enumerators.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\model_enumerators.cpp(21): fatal error C1083: Cannot open include file: 'clasp/model_enumerators.h': No such file or directory
+  minimize_constraint.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\minimize_constraint.cpp(20): fatal error C1083: Cannot open include file: 'clasp/minimize_constraint.h': No such file or directory
+  lookahead.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\lookahead.cpp(20): fatal error C1083: Cannot open include file: 'clasp/lookahead.h': No such file or directory
+  logic_program_types.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\logic_program_types.cpp(26): fatal error C1083: Cannot open include file: 'clasp/logic_program_types.h': No such file or directory
+  logic_program.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\logic_program.cpp(26): fatal error C1083: Cannot open include file: 'clasp/logic_program.h': No such file or directory
+  heuristics.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\heuristics.cpp(20): fatal error C1083: Cannot open include file: 'clasp/heuristics.h': No such file or directory
+  enumerator.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\enumerator.cpp(20): fatal error C1083: Cannot open include file: 'clasp/enumerator.h': No such file or directory
+  dependency_graph.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\dependency_graph.cpp(24): fatal error C1083: Cannot open include file: 'clasp/dependency_graph.h': No such file or directory
+  constraint.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\constraint.cpp(21): fatal error C1083: Cannot open include file: 'clasp/constraint.h': No such file or directory
+  clause.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\clause.cpp(20): fatal error C1083: Cannot open include file: 'clasp/clause.h': No such file or directory
+  clasp_output.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\clasp_output.cpp(20): fatal error C1083: Cannot open include file: 'clasp/cli/clasp_output.h': No such file or directory
+  clasp_options.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\clasp_options.cpp(20): fatal error C1083: Cannot open include file: 'clasp/cli/clasp_options.h': No such file or directory
+  clasp_facade.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\clasp_facade.cpp(20): fatal error C1083: Cannot open include file: 'clasp/clasp_facade.h': No such file or directory
+  cb_enumerator.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\cb_enumerator.cpp(20): fatal error C1083: Cannot open include file: 'clasp/cb_enumerator.h': No such file or directory
+  asp_preprocessor.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\src\asp_preprocessor.cpp(20): fatal error C1083: Cannot open include file: 'clasp/asp_preprocessor.h': No such file or directory
+  main.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\app\gringo\main.cc(21): fatal error C1083: Cannot open include file: 'gringo/input/nongroundparser.hh': No such file or directory
+  main.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\clasp\clasp_facade.h(40): fatal error C1189: #error:  Invalid thread configuration - use WITH_THREADS=0 for single-threaded or WITH_THREADS=1 for multi-threaded version of libclasp!
+  grounder.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\gringo\utility.hh(245): error C2244: 'Gringo::value_equal_to<std::vector<T...>>::operator ()': unable to match function definition to an existing declaration
+  c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\gringo\utility.hh(238): note: see declaration of 'Gringo::value_equal_to<std::vector<T...>>::operator ()'
+  c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\gringo\utility.hh(245): note: definition
+  c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\gringo\utility.hh(245): note: 'bool Gringo::value_equal_to<std::vector<T...>>::operator ()(const std::vector<T...> &,const std::vector<T...> &) const'
+  c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\gringo\utility.hh(245): note: existing declarations
+  c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\gringo\utility.hh(245): note: 'bool Gringo::value_equal_to<T>::operator ()(const T &,const T &) const'
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\gringo\unique_list.hh(135): warning C4099: 'Gringo::unique_list_const_iterator': type name first seen using 'struct' now seen using 'class'
+  c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\gringo\unique_list.hh(59): note: see declaration of 'Gringo::unique_list_const_iterator'
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\gringo\unique_list.hh(355): warning C4099: 'Gringo::unique_list': type name first seen using 'struct' now seen using 'class'
+  c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\gringo\unique_list.hh(56): note: see declaration of 'Gringo::unique_list'
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\gringo\unique_list.hh(56): warning C4099: 'Gringo::unique_list': type name first seen using 'class' now seen using 'struct'
+  c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\gringo\unique_list.hh(157): note: see declaration of 'Gringo::unique_list'
+  c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\gringo\domain.hh(242): note: see reference to class template instantiation 'Gringo::unique_list_iterator<Value>' being compiled
+          with
+          [
+              Value=std::pair<Gringo::FWSignature,Gringo::PredicateDomain>
+          ]
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\gringo\unique_list.hh(59): warning C4099: 'Gringo::unique_list_const_iterator': type name first seen using 'class' now seen using 'struct'
+  c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\gringo\unique_list.hh(96): note: see declaration of 'Gringo::unique_list_const_iterator'
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libgringo\gringo\domain.hh(529): error C4146: unary minus operator applied to unsigned type, result still unsigned
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\clasp\clasp_facade.h(40): fatal error C1189: #error:  Invalid thread configuration - use WITH_THREADS=0 for single-threaded or WITH_THREADS=1 for multi-threaded version of libclasp!
+  Generating Code...
+  Compiling...
+  clingo_app.cc
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\clasp\clasp_facade.h(40): fatal error C1189: #error:  Invalid thread configuration - use WITH_THREADS=0 for single-threaded or WITH_THREADS=1 for multi-threaded version of libclasp!
+  clasp_app.cpp
+c:\users\zirconix\documents\visual studio 2015\projects\project1\project1\libclasp\clasp\clasp_facade.h(40): fatal error C1189: #error:  Invalid thread configuration - use WITH_THREADS=0 for single-threaded or WITH_THREADS=1 for multi-threaded version of libclasp!
+  Generating Code...

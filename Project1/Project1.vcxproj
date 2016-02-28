@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{67218D33-4931-4838-A76E-26D8733222F1}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="app\clingo\src\clasp\clasp_app.cpp" />
+    <ClCompile Include="app\clingo\src\clingo_app.cc" />
+    <ClCompile Include="app\clingo\src\grounder.cc" />
+    <ClCompile Include="app\clingo\src\main.cc" />
+    <ClCompile Include="app\gringo\main.cc" />
+    <ClCompile Include="libclasp\src\asp_preprocessor.cpp" />
+    <ClCompile Include="libclasp\src\cb_enumerator.cpp" />
+    <ClCompile Include="libclasp\src\clasp_facade.cpp" />
+    <ClCompile Include="libclasp\src\clasp_options.cpp" />
+    <ClCompile Include="libclasp\src\clasp_output.cpp" />
+    <ClCompile Include="libclasp\src\clause.cpp" />
+    <ClCompile Include="libclasp\src\constraint.cpp" />
+    <ClCompile Include="libclasp\src\dependency_graph.cpp" />
+    <ClCompile Include="libclasp\src\enumerator.cpp" />
+    <ClCompile Include="libclasp\src\heuristics.cpp" />
+    <ClCompile Include="libclasp\src\logic_program.cpp" />
+    <ClCompile Include="libclasp\src\logic_program_types.cpp" />
+    <ClCompile Include="libclasp\src\lookahead.cpp" />
+    <ClCompile Include="libclasp\src\minimize_constraint.cpp" />
+    <ClCompile Include="libclasp\src\model_enumerators.cpp" />
+    <ClCompile Include="libclasp\src\parallel_solve.cpp" />
+    <ClCompile Include="libclasp\src\parser.cpp" />
+    <ClCompile Include="libclasp\src\program_builder.cpp" />
+    <ClCompile Include="libclasp\src\satelite.cpp" />
+    <ClCompile Include="libclasp\src\shared_context.cpp" />
+    <ClCompile Include="libclasp\src\solver.cpp" />
+    <ClCompile Include="libclasp\src\solver_strategies.cpp" />
+    <ClCompile Include="libclasp\src\solver_types.cpp" />
+    <ClCompile Include="libclasp\src\solve_algorithms.cpp" />
+    <ClCompile Include="libclasp\src\timer.cpp" />
+    <ClCompile Include="libclasp\src\unfounded_check.cpp" />
+    <ClCompile Include="libclasp\src\weight_constraint.cpp" />
+    <ClCompile Include="libgringo\src\ground\instantiation.cc" />
+    <ClCompile Include="libgringo\src\ground\literals.cc" />
+    <ClCompile Include="libgringo\src\ground\program.cc" />
+    <ClCompile Include="libgringo\src\ground\statements.cc" />
+    <ClCompile Include="libgringo\src\input\aggregate.cc" />
+    <ClCompile Include="libgringo\src\input\aggregates.cc" />
+    <ClCompile Include="libgringo\src\input\literal.cc" />
+    <ClCompile Include="libgringo\src\input\literals.cc" />
+    <ClCompile Include="libgringo\src\input\nongroundparser.cc" />
+    <ClCompile Include="libgringo\src\input\program.cc" />
+    <ClCompile Include="libgringo\src\input\programbuilder.cc" />
+    <ClCompile Include="libgringo\src\input\statements.cc" />
+    <ClCompile Include="libgringo\src\lua.cc" />
+    <ClCompile Include="libgringo\src\output\literals.cc" />
+    <ClCompile Include="libgringo\src\output\output.cc" />
+    <ClCompile Include="libgringo\src\output\statements.cc" />
+    <ClCompile Include="libgringo\src\python.cc" />
+    <ClCompile Include="libgringo\src\scripts.cc" />
+    <ClCompile Include="libgringo\src\term.cc" />
+    <ClCompile Include="libgringo\src\terms.cc" />
+    <ClCompile Include="libgringo\tests\flyweight.cc" />
+    <ClCompile Include="libgringo\tests\graph.cc" />
+    <ClCompile Include="libgringo\tests\ground\dependency.cc" />
+    <ClCompile Include="libgringo\tests\ground\instantiation.cc" />
+    <ClCompile Include="libgringo\tests\ground\literal.cc" />
+    <ClCompile Include="libgringo\tests\ground\program.cc" />
+    <ClCompile Include="libgringo\tests\input\aggregate.cc" />
+    <ClCompile Include="libgringo\tests\input\literal.cc" />
+    <ClCompile Include="libgringo\tests\input\nongroundgrammar.cc" />
+    <ClCompile Include="libgringo\tests\input\nongroundlexer.cc" />
+    <ClCompile Include="libgringo\tests\input\program.cc" />
+    <ClCompile Include="libgringo\tests\input\programbuilder.cc" />
+    <ClCompile Include="libgringo\tests\intervals.cc" />
+    <ClCompile Include="libgringo\tests\lua.cc" />
+    <ClCompile Include="libgringo\tests\main.cc" />
+    <ClCompile Include="libgringo\tests\output\aspcomp13.cc" />
+    <ClCompile Include="libgringo\tests\output\incremental.cc" />
+    <ClCompile Include="libgringo\tests\output\lparse.cc" />
+    <ClCompile Include="libgringo\tests\output\warnings.cc" />
+    <ClCompile Include="libgringo\tests\python.cc" />
+    <ClCompile Include="libgringo\tests\safetycheck.cc" />
+    <ClCompile Include="libgringo\tests\term.cc" />
+    <ClCompile Include="libgringo\tests\unique_list.cc" />
+    <ClCompile Include="libgringo\tests\utility.cc" />
+    <ClCompile Include="libgringo\tests\value.cc" />
+    <ClCompile Include="libprogram_opts\src\alarm.cpp" />
+    <ClCompile Include="libprogram_opts\src\application.cpp" />
+    <ClCompile Include="libprogram_opts\src\program_options.cpp" />
+    <ClCompile Include="libprogram_opts\src\string_convert.cpp" />
+    <ClCompile Include="libprogram_opts\src\value_store.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app\clingo\src\clasp\clasp_app.h" />
+    <ClInclude Include="app\clingo\src\clingo_app.hh" />
+    <ClInclude Include="app\clingo\src\grounder.hh" />
+    <ClInclude Include="libclasp\clasp\asp_preprocessor.h" />
+    <ClInclude Include="libclasp\clasp\cb_enumerator.h" />
+    <ClInclude Include="libclasp\clasp\claspfwd.h" />
+    <ClInclude Include="libclasp\clasp\clasp_facade.h" />
+    <ClInclude Include="libclasp\clasp\clause.h" />
+    <ClInclude Include="libclasp\clasp\cli\clasp_options.h" />
+    <ClInclude Include="libclasp\clasp\cli\clasp_output.h" />
+    <ClInclude Include="libclasp\clasp\cli\clifwd.h" />
+    <ClInclude Include="libclasp\clasp\constraint.h" />
+    <ClInclude Include="libclasp\clasp\dependency_graph.h" />
+    <ClInclude Include="libclasp\clasp\enumerator.h" />
+    <ClInclude Include="libclasp\clasp\heuristics.h" />
+    <ClInclude Include="libclasp\clasp\literal.h" />
+    <ClInclude Include="libclasp\clasp\logic_program.h" />
+    <ClInclude Include="libclasp\clasp\logic_program_types.h" />
+    <ClInclude Include="libclasp\clasp\lookahead.h" />
+    <ClInclude Include="libclasp\clasp\minimize_constraint.h" />
+    <ClInclude Include="libclasp\clasp\model_enumerators.h" />
+    <ClInclude Include="libclasp\clasp\parallel_solve.h" />
+    <ClInclude Include="libclasp\clasp\parser.h" />
+    <ClInclude Include="libclasp\clasp\pod_vector.h" />
+    <ClInclude Include="libclasp\clasp\program_builder.h" />
+    <ClInclude Include="libclasp\clasp\satelite.h" />
+    <ClInclude Include="libclasp\clasp\shared_context.h" />
+    <ClInclude Include="libclasp\clasp\solver.h" />
+    <ClInclude Include="libclasp\clasp\solver_strategies.h" />
+    <ClInclude Include="libclasp\clasp\solver_types.h" />
+    <ClInclude Include="libclasp\clasp\solve_algorithms.h" />
+    <ClInclude Include="libclasp\clasp\unfounded_check.h" />
+    <ClInclude Include="libclasp\clasp\util\atomic.h" />
+    <ClInclude Include="libclasp\clasp\util\indexed_priority_queue.h" />
+    <ClInclude Include="libclasp\clasp\util\left_right_sequence.h" />
+    <ClInclude Include="libclasp\clasp\util\misc_types.h" />
+    <ClInclude Include="libclasp\clasp\util\multi_queue.h" />
+    <ClInclude Include="libclasp\clasp\util\mutex.h" />
+    <ClInclude Include="libclasp\clasp\util\platform.h" />
+    <ClInclude Include="libclasp\clasp\util\pod_vector.h" />
+    <ClInclude Include="libclasp\clasp\util\thread.h" />
+    <ClInclude Include="libclasp\clasp\util\timer.h" />
+    <ClInclude Include="libclasp\clasp\util\type_manip.h" />
+    <ClInclude Include="libclasp\clasp\weight_constraint.h" />
+    <ClInclude Include="libgringo\gringo\backtrace.hh" />
+    <ClInclude Include="libgringo\gringo\base.hh" />
+    <ClInclude Include="libgringo\gringo\bug.hh" />
+    <ClInclude Include="libgringo\gringo\clonable.hh" />
+    <ClInclude Include="libgringo\gringo\comparable.hh" />
+    <ClInclude Include="libgringo\gringo\control.hh" />
+    <ClInclude Include="libgringo\gringo\domain.hh" />
+    <ClInclude Include="libgringo\gringo\flyweight.hh" />
+    <ClInclude Include="libgringo\gringo\graph.hh" />
+    <ClInclude Include="libgringo\gringo\ground\binders.hh" />
+    <ClInclude Include="libgringo\gringo\ground\dependency.hh" />
+    <ClInclude Include="libgringo\gringo\ground\instantiation.hh" />
+    <ClInclude Include="libgringo\gringo\ground\literal.hh" />
+    <ClInclude Include="libgringo\gringo\ground\literals.hh" />
+    <ClInclude Include="libgringo\gringo\ground\program.hh" />
+    <ClInclude Include="libgringo\gringo\ground\statement.hh" />
+    <ClInclude Include="libgringo\gringo\ground\statements.hh" />
+    <ClInclude Include="libgringo\gringo\hashable.hh" />
+    <ClInclude Include="libgringo\gringo\input\aggregate.hh" />
+    <ClInclude Include="libgringo\gringo\input\aggregates.hh" />
+    <ClInclude Include="libgringo\gringo\input\literal.hh" />
+    <ClInclude Include="libgringo\gringo\input\literals.hh" />
+    <ClInclude Include="libgringo\gringo\input\nongroundparser.hh" />
+    <ClInclude Include="libgringo\gringo\input\program.hh" />
+    <ClInclude Include="libgringo\gringo\input\programbuilder.hh" />
+    <ClInclude Include="libgringo\gringo\input\statement.hh" />
+    <ClInclude Include="libgringo\gringo\input\statements.hh" />
+    <ClInclude Include="libgringo\gringo\intervals.hh" />
+    <ClInclude Include="libgringo\gringo\lexerstate.hh" />
+    <ClInclude Include="libgringo\gringo\locatable.hh" />
+    <ClInclude Include="libgringo\gringo\logger.hh" />
+    <ClInclude Include="libgringo\gringo\lua.hh" />
+    <ClInclude Include="libgringo\gringo\output\literal.hh" />
+    <ClInclude Include="libgringo\gringo\output\literals.hh" />
+    <ClInclude Include="libgringo\gringo\output\lparseoutputter.hh" />
+    <ClInclude Include="libgringo\gringo\output\output.hh" />
+    <ClInclude Include="libgringo\gringo\output\statement.hh" />
+    <ClInclude Include="libgringo\gringo\output\statements.hh" />
+    <ClInclude Include="libgringo\gringo\printable.hh" />
+    <ClInclude Include="libgringo\gringo\python.hh" />
+    <ClInclude Include="libgringo\gringo\safetycheck.hh" />
+    <ClInclude Include="libgringo\gringo\scripts.hh" />
+    <ClInclude Include="libgringo\gringo\term.hh" />
+    <ClInclude Include="libgringo\gringo\terms.hh" />
+    <ClInclude Include="libgringo\gringo\unique_list.hh" />
+    <ClInclude Include="libgringo\gringo\utility.hh" />
+    <ClInclude Include="libgringo\gringo\value.hh" />
+    <ClInclude Include="libgringo\gringo\version.hh" />
+    <ClInclude Include="libgringo\tests\input\aggregate_helper.hh" />
+    <ClInclude Include="libgringo\tests\input\lit_helper.hh" />
+    <ClInclude Include="libgringo\tests\output\solver_helper.hh" />
+    <ClInclude Include="libgringo\tests\term_helper.hh" />
+    <ClInclude Include="libgringo\tests\tests.hh" />
+    <ClInclude Include="libprogram_opts\program_opts\application.h" />
+    <ClInclude Include="libprogram_opts\program_opts\detail\alarm.h" />
+    <ClInclude Include="libprogram_opts\program_opts\detail\notifier.h" />
+    <ClInclude Include="libprogram_opts\program_opts\detail\refcountable.h" />
+    <ClInclude Include="libprogram_opts\program_opts\detail\value_store.h" />
+    <ClInclude Include="libprogram_opts\program_opts\errors.h" />
+    <ClInclude Include="libprogram_opts\program_opts\mapped_value.h" />
+    <ClInclude Include="libprogram_opts\program_opts\program_options.h" />
+    <ClInclude Include="libprogram_opts\program_opts\string_convert.h" />
+    <ClInclude Include="libprogram_opts\program_opts\typed_value.h" />
+    <ClInclude Include="libprogram_opts\program_opts\value.h" />
+    <ClInclude Include="libprogram_opts\program_opts\value_store.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
